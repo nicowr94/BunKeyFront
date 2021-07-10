@@ -1,0 +1,107 @@
+body {
+  min-width: 350px;
+}
+a {
+  text-decoration: none !important;
+}
+
+#bg-form {
+  background: #1720251f;
+}
+
+input:focus {
+  outline: none;
+}
+.login-card {
+  border: 0 !important;
+  border-radius: 27.5px !important;
+  box-shadow: 0 10px 30px 0 #1720259c;
+  overflow: hidden;
+}
+
+.row {
+  height: 700px;
+}
+.img-content,
+.form-content {
+  position: relative;
+  padding: 0 !important;
+}
+
+.img-content img {
+  border: 0;
+  border-radius: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0;
+}
+
+.card-body {
+  padding: 85px 60px 35px !important;
+}
+
+.card-body .brand-wrapper img {
+  height: 45px;
+  margin-bottom: 20px;
+}
+
+.login-card-description {
+  font-size: 2rem;
+  color: #000;
+  font-weight: normal;
+  margin-bottom: 23px;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  height: 45px;
+}
+#btn-login {
+  width: 100%;
+  background: #172025e6;
+  color: white;
+  height: 45px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.login-card-footer-text {
+  font-size: 16px;
+  color: #0d2366;
+  margin-bottom: 60px;
+}
+.forgot-password-link {
+  color: #919aa3 !important;
+  margin-bottom: 10px;
+}
+.login-card-footer-text {
+  color: inherit !important;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.login-card-footer-nav {
+  color: #919aa3 !important;
+}
+
+.login-card-footer-nav p a {
+  color: #919aa3 !important;
+}
+@media (max-width: 768px) {
+  .img-content {
+    display: none;
+  }
+}
